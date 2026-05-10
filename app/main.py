@@ -8,6 +8,7 @@ from app.config import get_settings
 from app.utils.logging import configure_logging
 from app.services.scheduler import start_scheduler, stop_scheduler
 from app.api.routes import account, trades, strategy, risk, notifications, auth
+from app.core.strategy_registry import get_strategy, get_all_strategies
 
 configure_logging()
 logger = structlog.get_logger()
