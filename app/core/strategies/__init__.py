@@ -3,7 +3,7 @@ from app.core.strategies.base import BaseStrategy
 from app.models.schemas import StrategyName
 
 # Import lazy (évite les circular imports)
-from app.core.strategies.ema_pullback import EmaPullbackStrategy
+from app.core.strategies.ema_pullback import EMAPullbackStrategy
 from app.core.strategies.rsi_mean_reversion import RsiMeanReversionStrategy
 from app.core.strategies.breakout_atr import BreakoutAtrStrategy
 
