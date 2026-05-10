@@ -9,7 +9,7 @@ from app.core.strategies.breakout_atr import BreakoutAtrStrategy
 
 
 STRATEGY_REGISTRY: Dict[StrategyName, BaseStrategy] = {
-    StrategyName.EMA_PULLBACK: EmaPullbackStrategy(),
+    StrategyName.EMA_PULLBACK: EMAPullbackStrategy(),
     StrategyName.RSI_MEAN_REVERSION: RsiMeanReversionStrategy(),
     StrategyName.BREAKOUT_ATR: BreakoutAtrStrategy(),
 }
