@@ -1,6 +1,6 @@
 from app.core.strategies.ema_pullback import EMAPullbackStrategy
-from app.core.strategies.breakout_atr import BreakoutATRStrategy
-from app.core.strategies.rsi_mean_reversion import RSIMeanReversionStrategy
+from app.core.strategies.breakout_atr import BreakoutAtrStrategy
+from app.core.strategies.rsi_mean_reversion import RsiMeanReversionStrategy
 
 
 class StrategyEngine:
