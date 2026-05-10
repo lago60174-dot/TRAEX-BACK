@@ -7,7 +7,7 @@ from app.models.schemas import (
 )
 
 
-class EmaPullbackStrategy(BaseStrategy):
+class EMAPullbackStrategy(BaseStrategy):
     """
     Strategy 1 — EMA Trend + Pullback
 
